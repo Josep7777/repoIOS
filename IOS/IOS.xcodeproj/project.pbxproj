@@ -13,6 +13,10 @@
 		B02181162B769A78005C9C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02181142B769A78005C9C0E /* Main.storyboard */; };
 		B02181182B769A79005C9C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02181172B769A79005C9C0E /* Assets.xcassets */; };
 		B021811B2B769A79005C9C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02181192B769A79005C9C0E /* LaunchScreen.storyboard */; };
+		B02181232B76B056005C9C0E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02181222B76B056005C9C0E /* Test.swift */; };
+		B0FCBEE22B7FDDF80063B3F3 /* SteamLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */; };
+		B0FCBEE42B7FDF5A0063B3F3 /* loginIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FCBEE32B7FDF5A0063B3F3 /* loginIcon.png */; };
+		B0FCBEE62B7FE1F10063B3F3 /* SteamLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FCBEE52B7FE1F10063B3F3 /* SteamLogoWhite.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B02181172B769A79005C9C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B021811A2B769A79005C9C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B021811C2B769A79005C9C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02181222B76B056005C9C0E /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamLoginVC.swift; sourceTree = "<group>"; };
+		B0FCBEE32B7FDF5A0063B3F3 /* loginIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginIcon.png; path = ../../../../Downloads/loginIcon.png; sourceTree = "<group>"; };
+		B0FCBEE52B7FE1F10063B3F3 /* SteamLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SteamLogoWhite.png; path = ../../../../Downloads/SteamLogoWhite.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,7 @@
 		B02181022B769A78005C9C0E = {
 			isa = PBXGroup;
 			children = (
+				B02181222B76B056005C9C0E /* Test.swift */,
 				B021810D2B769A78005C9C0E /* IOS */,
 				B021810C2B769A78005C9C0E /* Products */,
 			);
@@ -56,10 +65,13 @@
 		B021810D2B769A78005C9C0E /* IOS */ = {
 			isa = PBXGroup;
 			children = (
+				B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */,
 				B021810E2B769A78005C9C0E /* AppDelegate.swift */,
 				B02181102B769A78005C9C0E /* SceneDelegate.swift */,
 				B02181122B769A78005C9C0E /* ViewController.swift */,
 				B02181142B769A78005C9C0E /* Main.storyboard */,
+				B0FCBEE52B7FE1F10063B3F3 /* SteamLogoWhite.png */,
+				B0FCBEE32B7FDF5A0063B3F3 /* loginIcon.png */,
 				B02181172B769A79005C9C0E /* Assets.xcassets */,
 				B02181192B769A79005C9C0E /* LaunchScreen.storyboard */,
 				B021811C2B769A79005C9C0E /* Info.plist */,
@@ -125,8 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FCBEE62B7FE1F10063B3F3 /* SteamLogoWhite.png in Resources */,
 				B021811B2B769A79005C9C0E /* LaunchScreen.storyboard in Resources */,
 				B02181182B769A79005C9C0E /* Assets.xcassets in Resources */,
+				B0FCBEE42B7FDF5A0063B3F3 /* loginIcon.png in Resources */,
 				B02181162B769A78005C9C0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B02181132B769A78005C9C0E /* ViewController.swift in Sources */,
+				B02181232B76B056005C9C0E /* Test.swift in Sources */,
 				B021810F2B769A78005C9C0E /* AppDelegate.swift in Sources */,
+				B0FCBEE22B7FDDF80063B3F3 /* SteamLoginVC.swift in Sources */,
 				B02181112B769A78005C9C0E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
