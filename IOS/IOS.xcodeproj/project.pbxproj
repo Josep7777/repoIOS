@@ -17,7 +17,13 @@
 		B0F6DFF62B89109200C0D4A3 /* TableTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F6DFF52B89109200C0D4A3 /* TableTestVC.swift */; };
 		B0F6DFF82B8913DD00C0D4A3 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F6DFF72B8913DD00C0D4A3 /* TextCell.swift */; };
 		B0F6DFFA2B8924EC00C0D4A3 /* NotesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F6DFF92B8924EC00C0D4A3 /* NotesList.swift */; };
-		B0F6DFFC2B89280E00C0D4A3 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F6DFFB2B89280E00C0D4A3 /* NoteCell.swift */; };
+		B0F8AA3E2B92289E004B48D6 /* NotesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA3D2B92289E004B48D6 /* NotesListVC.swift */; };
+		B0F8AA402B922CCC004B48D6 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA3F2B922CCC004B48D6 /* Note.swift */; };
+		B0F8AA422B923359004B48D6 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA412B923359004B48D6 /* UserDefaults.swift */; };
+		B0F8AA442B923378004B48D6 /* UserDefaults+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA432B923378004B48D6 /* UserDefaults+Codable.swift */; };
+		B0F8AA462B923C65004B48D6 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA452B923C65004B48D6 /* NoteCell.swift */; };
+		B0F8AA492B924818004B48D6 /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA482B924818004B48D6 /* NoteDetailVC.swift */; };
+		B0F8AA4B2B925935004B48D6 /* BtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA4A2B925935004B48D6 /* BtCell.swift */; };
 		B0FCBEE22B7FDDF80063B3F3 /* SteamLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */; };
 		B0FCBEE42B7FDF5A0063B3F3 /* loginIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FCBEE32B7FDF5A0063B3F3 /* loginIcon.png */; };
 		B0FCBEE62B7FE1F10063B3F3 /* SteamLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FCBEE52B7FE1F10063B3F3 /* SteamLogoWhite.png */; };
@@ -36,7 +42,13 @@
 		B0F6DFF52B89109200C0D4A3 /* TableTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTestVC.swift; sourceTree = "<group>"; };
 		B0F6DFF72B8913DD00C0D4A3 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		B0F6DFF92B8924EC00C0D4A3 /* NotesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesList.swift; sourceTree = "<group>"; };
-		B0F6DFFB2B89280E00C0D4A3 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		B0F8AA3D2B92289E004B48D6 /* NotesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListVC.swift; sourceTree = "<group>"; };
+		B0F8AA3F2B922CCC004B48D6 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		B0F8AA412B923359004B48D6 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = SOURCE_ROOT; };
+		B0F8AA432B923378004B48D6 /* UserDefaults+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Codable.swift"; sourceTree = SOURCE_ROOT; };
+		B0F8AA452B923C65004B48D6 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = SOURCE_ROOT; };
+		B0F8AA482B924818004B48D6 /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = SOURCE_ROOT; };
+		B0F8AA4A2B925935004B48D6 /* BtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtCell.swift; sourceTree = SOURCE_ROOT; };
 		B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamLoginVC.swift; sourceTree = "<group>"; };
 		B0FCBEE32B7FDF5A0063B3F3 /* loginIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginIcon.png; path = ../../../../Downloads/loginIcon.png; sourceTree = "<group>"; };
 		B0FCBEE52B7FE1F10063B3F3 /* SteamLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SteamLogoWhite.png; path = ../../../../Downloads/SteamLogoWhite.png; sourceTree = "<group>"; };
@@ -56,7 +68,7 @@
 		B02181022B769A78005C9C0E = {
 			isa = PBXGroup;
 			children = (
-				B0F6DFFB2B89280E00C0D4A3 /* NoteCell.swift */,
+				B0F6DFF92B8924EC00C0D4A3 /* NotesList.swift */,
 				B021810D2B769A78005C9C0E /* IOS */,
 				B021810C2B769A78005C9C0E /* Products */,
 			);
@@ -73,6 +85,8 @@
 		B021810D2B769A78005C9C0E /* IOS */ = {
 			isa = PBXGroup;
 			children = (
+				B0F8AA472B924804004B48D6 /* New Group */,
+				B0F8AA3F2B922CCC004B48D6 /* Note.swift */,
 				B02181222B76B056005C9C0E /* Test.swift */,
 				B0F6DFF72B8913DD00C0D4A3 /* TextCell.swift */,
 				B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */,
@@ -86,9 +100,21 @@
 				B02181192B769A79005C9C0E /* LaunchScreen.storyboard */,
 				B021811C2B769A79005C9C0E /* Info.plist */,
 				B0F6DFF52B89109200C0D4A3 /* TableTestVC.swift */,
-				B0F6DFF92B8924EC00C0D4A3 /* NotesList.swift */,
+				B0F8AA3D2B92289E004B48D6 /* NotesListVC.swift */,
+				B0F8AA412B923359004B48D6 /* UserDefaults.swift */,
+				B0F8AA432B923378004B48D6 /* UserDefaults+Codable.swift */,
+				B0F8AA452B923C65004B48D6 /* NoteCell.swift */,
+				B0F8AA482B924818004B48D6 /* NoteDetailVC.swift */,
+				B0F8AA4A2B925935004B48D6 /* BtCell.swift */,
 			);
 			path = IOS;
+			sourceTree = "<group>";
+		};
+		B0F8AA472B924804004B48D6 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,12 +191,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B02181132B769A78005C9C0E /* ViewController.swift in Sources */,
+				B0F8AA492B924818004B48D6 /* NoteDetailVC.swift in Sources */,
+				B0F8AA462B923C65004B48D6 /* NoteCell.swift in Sources */,
+				B0F8AA442B923378004B48D6 /* UserDefaults+Codable.swift in Sources */,
 				B0F6DFF62B89109200C0D4A3 /* TableTestVC.swift in Sources */,
 				B02181232B76B056005C9C0E /* Test.swift in Sources */,
+				B0F8AA422B923359004B48D6 /* UserDefaults.swift in Sources */,
 				B0F6DFF82B8913DD00C0D4A3 /* TextCell.swift in Sources */,
+				B0F8AA3E2B92289E004B48D6 /* NotesListVC.swift in Sources */,
+				B0F8AA4B2B925935004B48D6 /* BtCell.swift in Sources */,
+				B0F8AA402B922CCC004B48D6 /* Note.swift in Sources */,
 				B021810F2B769A78005C9C0E /* AppDelegate.swift in Sources */,
 				B0FCBEE22B7FDDF80063B3F3 /* SteamLoginVC.swift in Sources */,
-				B0F6DFFC2B89280E00C0D4A3 /* NoteCell.swift in Sources */,
 				B02181112B769A78005C9C0E /* SceneDelegate.swift in Sources */,
 				B0F6DFFA2B8924EC00C0D4A3 /* NotesList.swift in Sources */,
 			);
