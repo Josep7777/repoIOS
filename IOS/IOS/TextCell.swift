@@ -7,6 +7,8 @@
 
 import UIKit
 
-class TextCell: UITableView {
+class TextCell: UITableViewCell {
+    
     @IBOutlet weak var TextTitle: UILabel!
+    
 }

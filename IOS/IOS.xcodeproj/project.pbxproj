@@ -14,6 +14,10 @@
 		B02181182B769A79005C9C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02181172B769A79005C9C0E /* Assets.xcassets */; };
 		B021811B2B769A79005C9C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02181192B769A79005C9C0E /* LaunchScreen.storyboard */; };
 		B02181232B76B056005C9C0E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02181222B76B056005C9C0E /* Test.swift */; };
+		B0F6DFF62B89109200C0D4A3 /* TableTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F6DFF52B89109200C0D4A3 /* TableTestVC.swift */; };
+		B0F6DFF82B8913DD00C0D4A3 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F6DFF72B8913DD00C0D4A3 /* TextCell.swift */; };
+		B0F6DFFA2B8924EC00C0D4A3 /* NotesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F6DFF92B8924EC00C0D4A3 /* NotesList.swift */; };
+		B0F6DFFC2B89280E00C0D4A3 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F6DFFB2B89280E00C0D4A3 /* NoteCell.swift */; };
 		B0FCBEE22B7FDDF80063B3F3 /* SteamLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */; };
 		B0FCBEE42B7FDF5A0063B3F3 /* loginIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FCBEE32B7FDF5A0063B3F3 /* loginIcon.png */; };
 		B0FCBEE62B7FE1F10063B3F3 /* SteamLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FCBEE52B7FE1F10063B3F3 /* SteamLogoWhite.png */; };
@@ -29,6 +33,10 @@
 		B021811A2B769A79005C9C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B021811C2B769A79005C9C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B02181222B76B056005C9C0E /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		B0F6DFF52B89109200C0D4A3 /* TableTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTestVC.swift; sourceTree = "<group>"; };
+		B0F6DFF72B8913DD00C0D4A3 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		B0F6DFF92B8924EC00C0D4A3 /* NotesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesList.swift; sourceTree = "<group>"; };
+		B0F6DFFB2B89280E00C0D4A3 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamLoginVC.swift; sourceTree = "<group>"; };
 		B0FCBEE32B7FDF5A0063B3F3 /* loginIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginIcon.png; path = ../../../../Downloads/loginIcon.png; sourceTree = "<group>"; };
 		B0FCBEE52B7FE1F10063B3F3 /* SteamLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SteamLogoWhite.png; path = ../../../../Downloads/SteamLogoWhite.png; sourceTree = "<group>"; };
@@ -48,7 +56,7 @@
 		B02181022B769A78005C9C0E = {
 			isa = PBXGroup;
 			children = (
-				B02181222B76B056005C9C0E /* Test.swift */,
+				B0F6DFFB2B89280E00C0D4A3 /* NoteCell.swift */,
 				B021810D2B769A78005C9C0E /* IOS */,
 				B021810C2B769A78005C9C0E /* Products */,
 			);
@@ -65,6 +73,8 @@
 		B021810D2B769A78005C9C0E /* IOS */ = {
 			isa = PBXGroup;
 			children = (
+				B02181222B76B056005C9C0E /* Test.swift */,
+				B0F6DFF72B8913DD00C0D4A3 /* TextCell.swift */,
 				B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */,
 				B021810E2B769A78005C9C0E /* AppDelegate.swift */,
 				B02181102B769A78005C9C0E /* SceneDelegate.swift */,
@@ -75,6 +85,8 @@
 				B02181172B769A79005C9C0E /* Assets.xcassets */,
 				B02181192B769A79005C9C0E /* LaunchScreen.storyboard */,
 				B021811C2B769A79005C9C0E /* Info.plist */,
+				B0F6DFF52B89109200C0D4A3 /* TableTestVC.swift */,
+				B0F6DFF92B8924EC00C0D4A3 /* NotesList.swift */,
 			);
 			path = IOS;
 			sourceTree = "<group>";
@@ -153,10 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B02181132B769A78005C9C0E /* ViewController.swift in Sources */,
+				B0F6DFF62B89109200C0D4A3 /* TableTestVC.swift in Sources */,
 				B02181232B76B056005C9C0E /* Test.swift in Sources */,
+				B0F6DFF82B8913DD00C0D4A3 /* TextCell.swift in Sources */,
 				B021810F2B769A78005C9C0E /* AppDelegate.swift in Sources */,
 				B0FCBEE22B7FDDF80063B3F3 /* SteamLoginVC.swift in Sources */,
+				B0F6DFFC2B89280E00C0D4A3 /* NoteCell.swift in Sources */,
 				B02181112B769A78005C9C0E /* SceneDelegate.swift in Sources */,
+				B0F6DFFA2B8924EC00C0D4A3 /* NotesList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

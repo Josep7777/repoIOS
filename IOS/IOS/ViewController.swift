@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         //This function is called after calculate sub views sizes and positions
     }
     override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(<#T##animated: Bool##Bool#>)
+        super.viewDidAppear(animated)
         //This function is called after screen appear
         //Sizes and positions of objects, is calculated
     }
@@ -113,7 +113,7 @@ class ViewController: UIViewController {
 
     }
     func testClass(){
-        var nonOptionalClass = TestObject(a: <#T##Int#>, b: <#T##Int#>)
+        var nonOptionalClass = TestObject(a: 2, b: 3)
         //var optionalClass = nil
         var optionalClass:TestObject? = nil
         
@@ -156,7 +156,7 @@ extension ViewController.TestObject{
 }
 extension ViewController{
     func testExtension(){
-        var extendedObject = TestObject(a: <#T##Int#>, b: <#T##Int#>)
+        var extendedObject = TestObject(a: 2, b: 3)
         extendedObject.substractOneToAll()
     }
 }
@@ -184,7 +184,7 @@ extension ViewController.TestObject: ReadableAsText{
 
 extension ViewController{
     func testProtocol(){
-        var extendedObject = TestObject(a: <#T##Int#>, b: <#T##Int#>)
+        var extendedObject = TestObject(a: 2, b: 2)
         
         var aString = extendedObject.Text
         var bString = extendedObject.toText()
@@ -233,5 +233,127 @@ extension ViewController{
         while( i < 5){
             i += 1
         }
+    }
+}
+
+//MARK: Enums
+
+enum DayOfWeek{
+    case monday
+    case tuesday
+    case wednesday
+    case thursday
+    case friday
+    case saturday
+    case sunday
+}
+
+extension ViewController{
+    func testEnumDayOfWeek(){
+        //let day = DayOfWeek.friday
+        let day: DayOfWeek = .monday
+        
+        switch(day){
+            
+        case .monday,.tuesday,.wednesday,.thursday,.friday:
+            print("se curra")
+            break
+
+        case .saturday,.sunday:
+            print("no se curra")
+            break
+
+        }
+    }
+}
+
+extension DayOfWeek: CaseIterable{
+    var TranslatedText: String{
+        get{
+            switch(self){
+                
+            case .monday:
+                return "Lunes"
+            case .tuesday:
+                return "Martes"
+            case .wednesday:
+                return "Miercoles"
+            case .thursday:
+                return "Jueves"
+            case .friday:
+                return "Viernes"
+            case .saturday:
+                return "Sabado"
+            case .sunday:
+                return "Domingo"
+            }
+        }
+    }
+}
+extension ViewController{
+    func testEnumDayOfWeekIterable(){
+        let allDaysOfWeek = DayOfWeek.allCases
+        
+        for day in allDaysOfWeek{
+            print(day)
+        }
+    }
+}
+
+enum OperationResult<T> {
+    case Succes(text: T)
+    case Failure(error: Error, code: Int)
+}
+
+extension ViewController{
+    func testEnumOperation(){
+        let opResult = OperationResult<String>.Succes(text: "Exitoso")
+        switch(opResult){
+            
+        case .Succes(text: let value):
+            print(value)
+            break
+        case .Failure(error: let error, code: let code):
+            print(code)
+            break
+        }
+    }
+}
+
+enum MathOperation {
+    case Add(a:Double,b:Double)
+    case Substract(a:Double,b:Double)
+    case Multiply(a:Double,b:Double)
+    case Divide(a:Double,b:Double)
+    case Module(a:Double,b:Double)
+    
+    var Result: Double {
+        get {
+            switch(self){
+                
+            case .Add(a: let a, b: let b):
+                return a + b
+            case .Substract(a: let a, b: let b):
+                return a - b
+            case .Multiply(a: let a, b: let b):
+                return a * b
+            case .Divide(a: let a, b: let b):
+                return a / b
+            case .Module(a: let a, b: let b):
+                return a.truncatingRemainder(dividingBy: b)
+            }
+        }
+    }
+}
+
+extension ViewController{
+    func testEnumMathOperation(){
+        let mathOp: MathOperation = .Add(a:5, b: 3)
+        print(mathOp.Result)
+        
+        let result = MathOperation.Add(a: 3, b: 3).Result + MathOperation.Multiply(a: 4, b: 5).Result
+        print(result)
+        
+        
     }
 }

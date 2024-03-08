@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import UIKit
+
+class NotesList: UIViewController{
+    @IBOutlet weak var table: UITableView!
+    
+}

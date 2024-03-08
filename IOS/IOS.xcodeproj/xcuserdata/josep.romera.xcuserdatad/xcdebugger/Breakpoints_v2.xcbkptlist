@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "644A77AF-DF0E-4E9F-83EE-FC561AB0EF33"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D71B837-6ED8-4A7F-BB9E-63B260FF64AA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS/TextCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "TextCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2D71B837-6ED8-4A7F-BB9E-63B260FF64AA - e4259b3e75bb8843"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IOS.TextCell.TextTitle.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josep.romera/Documents/iosRepo/IOS/IOS/TextCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "2D71B837-6ED8-4A7F-BB9E-63B260FF64AA - 9a3456eb3c5df45f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IOS.TextCell.TextTitle.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josep.romera/Documents/iosRepo/IOS/IOS/TextCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "2D71B837-6ED8-4A7F-BB9E-63B260FF64AA - 82a849baf1f9feb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IOS.TextCell.TextTitle.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josep.romera/Documents/iosRepo/IOS/IOS/TextCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "2D71B837-6ED8-4A7F-BB9E-63B260FF64AA - a48eec2e36f29a44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IOS.TextCell.TextTitle.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josep.romera/Documents/iosRepo/IOS/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "2D71B837-6ED8-4A7F-BB9E-63B260FF64AA - ec33a08a997da998"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IOS.TextCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; IOS.TextCell"
+                  moduleName = "IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josep.romera/Documents/iosRepo/IOS/IOS/TextCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "2D71B837-6ED8-4A7F-BB9E-63B260FF64AA - a05ff53908661ae0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IOS.TextCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IOS.TextCell&gt;"
+                  moduleName = "IOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josep.romera/Documents/iosRepo/IOS/IOS/TextCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "60A773CD-C971-444D-A888-53B53C0B5B7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IOS/TableTestVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "AddBowsBtPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
