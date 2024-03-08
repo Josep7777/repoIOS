@@ -9,49 +9,29 @@
 /* Begin PBXBuildFile section */
 		B021810F2B769A78005C9C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B021810E2B769A78005C9C0E /* AppDelegate.swift */; };
 		B02181112B769A78005C9C0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02181102B769A78005C9C0E /* SceneDelegate.swift */; };
-		B02181132B769A78005C9C0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02181122B769A78005C9C0E /* ViewController.swift */; };
 		B02181162B769A78005C9C0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02181142B769A78005C9C0E /* Main.storyboard */; };
-		B02181182B769A79005C9C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02181172B769A79005C9C0E /* Assets.xcassets */; };
+		B02181182B769A79005C9C0E /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B02181172B769A79005C9C0E /* Icons.xcassets */; };
 		B021811B2B769A79005C9C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02181192B769A79005C9C0E /* LaunchScreen.storyboard */; };
-		B02181232B76B056005C9C0E /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02181222B76B056005C9C0E /* Test.swift */; };
-		B0F6DFF62B89109200C0D4A3 /* TableTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F6DFF52B89109200C0D4A3 /* TableTestVC.swift */; };
-		B0F6DFF82B8913DD00C0D4A3 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F6DFF72B8913DD00C0D4A3 /* TextCell.swift */; };
+		B0E5B1632B9B6E5F0006DB67 /* HeroesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5B1622B9B6E5F0006DB67 /* HeroesListVC.swift */; };
+		B0E5B1662B9B6F210006DB67 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5B1652B9B6F210006DB67 /* VC.swift */; };
+		B0E5B1692B9B710F0006DB67 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E5B1682B9B710F0006DB67 /* Colors.xcassets */; };
+		B0E5B16B2B9B7B180006DB67 /* UserDefaults+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E5B16A2B9B7B180006DB67 /* UserDefaults+Codable.swift */; };
 		B0F6DFFA2B8924EC00C0D4A3 /* NotesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F6DFF92B8924EC00C0D4A3 /* NotesList.swift */; };
-		B0F8AA3E2B92289E004B48D6 /* NotesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA3D2B92289E004B48D6 /* NotesListVC.swift */; };
-		B0F8AA402B922CCC004B48D6 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA3F2B922CCC004B48D6 /* Note.swift */; };
-		B0F8AA422B923359004B48D6 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA412B923359004B48D6 /* UserDefaults.swift */; };
-		B0F8AA442B923378004B48D6 /* UserDefaults+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA432B923378004B48D6 /* UserDefaults+Codable.swift */; };
-		B0F8AA462B923C65004B48D6 /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA452B923C65004B48D6 /* NoteCell.swift */; };
-		B0F8AA492B924818004B48D6 /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA482B924818004B48D6 /* NoteDetailVC.swift */; };
-		B0F8AA4B2B925935004B48D6 /* BtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8AA4A2B925935004B48D6 /* BtCell.swift */; };
-		B0FCBEE22B7FDDF80063B3F3 /* SteamLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */; };
-		B0FCBEE42B7FDF5A0063B3F3 /* loginIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FCBEE32B7FDF5A0063B3F3 /* loginIcon.png */; };
-		B0FCBEE62B7FE1F10063B3F3 /* SteamLogoWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = B0FCBEE52B7FE1F10063B3F3 /* SteamLogoWhite.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B021810B2B769A78005C9C0E /* IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B021810E2B769A78005C9C0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B02181102B769A78005C9C0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B02181122B769A78005C9C0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B02181152B769A78005C9C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B02181172B769A79005C9C0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B02181172B769A79005C9C0E /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		B021811A2B769A79005C9C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B021811C2B769A79005C9C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B02181222B76B056005C9C0E /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
-		B0F6DFF52B89109200C0D4A3 /* TableTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableTestVC.swift; sourceTree = "<group>"; };
-		B0F6DFF72B8913DD00C0D4A3 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		B0E5B1622B9B6E5F0006DB67 /* HeroesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesListVC.swift; sourceTree = "<group>"; };
+		B0E5B1652B9B6F210006DB67 /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
+		B0E5B1682B9B710F0006DB67 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		B0E5B16A2B9B7B180006DB67 /* UserDefaults+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Codable.swift"; sourceTree = "<group>"; };
 		B0F6DFF92B8924EC00C0D4A3 /* NotesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesList.swift; sourceTree = "<group>"; };
-		B0F8AA3D2B92289E004B48D6 /* NotesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListVC.swift; sourceTree = "<group>"; };
-		B0F8AA3F2B922CCC004B48D6 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
-		B0F8AA412B923359004B48D6 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = SOURCE_ROOT; };
-		B0F8AA432B923378004B48D6 /* UserDefaults+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Codable.swift"; sourceTree = SOURCE_ROOT; };
-		B0F8AA452B923C65004B48D6 /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = SOURCE_ROOT; };
-		B0F8AA482B924818004B48D6 /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = SOURCE_ROOT; };
-		B0F8AA4A2B925935004B48D6 /* BtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtCell.swift; sourceTree = SOURCE_ROOT; };
-		B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamLoginVC.swift; sourceTree = "<group>"; };
-		B0FCBEE32B7FDF5A0063B3F3 /* loginIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginIcon.png; path = ../../../../Downloads/loginIcon.png; sourceTree = "<group>"; };
-		B0FCBEE52B7FE1F10063B3F3 /* SteamLogoWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SteamLogoWhite.png; path = ../../../../Downloads/SteamLogoWhite.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,36 +65,74 @@
 		B021810D2B769A78005C9C0E /* IOS */ = {
 			isa = PBXGroup;
 			children = (
-				B0F8AA472B924804004B48D6 /* New Group */,
-				B0F8AA3F2B922CCC004B48D6 /* Note.swift */,
-				B02181222B76B056005C9C0E /* Test.swift */,
-				B0F6DFF72B8913DD00C0D4A3 /* TextCell.swift */,
-				B0FCBEE12B7FDDF80063B3F3 /* SteamLoginVC.swift */,
-				B021810E2B769A78005C9C0E /* AppDelegate.swift */,
-				B02181102B769A78005C9C0E /* SceneDelegate.swift */,
-				B02181122B769A78005C9C0E /* ViewController.swift */,
+				B0E5B1672B9B70BA0006DB67 /* Assets */,
+				B0E5B1642B9B6EA50006DB67 /* Components */,
+				B0E5B15F2B9B6DF50006DB67 /* Views */,
+				B0E5B15E2B9B6DD00006DB67 /* Extensions */,
+				B0F8AA472B924804004B48D6 /* setup2 */,
 				B02181142B769A78005C9C0E /* Main.storyboard */,
-				B0FCBEE52B7FE1F10063B3F3 /* SteamLogoWhite.png */,
-				B0FCBEE32B7FDF5A0063B3F3 /* loginIcon.png */,
-				B02181172B769A79005C9C0E /* Assets.xcassets */,
-				B02181192B769A79005C9C0E /* LaunchScreen.storyboard */,
-				B021811C2B769A79005C9C0E /* Info.plist */,
-				B0F6DFF52B89109200C0D4A3 /* TableTestVC.swift */,
-				B0F8AA3D2B92289E004B48D6 /* NotesListVC.swift */,
-				B0F8AA412B923359004B48D6 /* UserDefaults.swift */,
-				B0F8AA432B923378004B48D6 /* UserDefaults+Codable.swift */,
-				B0F8AA452B923C65004B48D6 /* NoteCell.swift */,
-				B0F8AA482B924818004B48D6 /* NoteDetailVC.swift */,
-				B0F8AA4A2B925935004B48D6 /* BtCell.swift */,
 			);
 			path = IOS;
 			sourceTree = "<group>";
 		};
-		B0F8AA472B924804004B48D6 /* New Group */ = {
+		B0E5B15E2B9B6DD00006DB67 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5B16A2B9B7B180006DB67 /* UserDefaults+Codable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B0E5B15F2B9B6DF50006DB67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5B1612B9B6E450006DB67 /* Cells */,
+				B0E5B1602B9B6E330006DB67 /* VCS */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0E5B1602B9B6E330006DB67 /* VCS */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5B1622B9B6E5F0006DB67 /* HeroesListVC.swift */,
+			);
+			path = VCS;
+			sourceTree = "<group>";
+		};
+		B0E5B1612B9B6E450006DB67 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "New Group";
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B0E5B1642B9B6EA50006DB67 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B0E5B1652B9B6F210006DB67 /* VC.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B0E5B1672B9B70BA0006DB67 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B02181172B769A79005C9C0E /* Icons.xcassets */,
+				B0E5B1682B9B710F0006DB67 /* Colors.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B0F8AA472B924804004B48D6 /* setup2 */ = {
+			isa = PBXGroup;
+			children = (
+				B021811C2B769A79005C9C0E /* Info.plist */,
+				B02181102B769A78005C9C0E /* SceneDelegate.swift */,
+				B021810E2B769A78005C9C0E /* AppDelegate.swift */,
+				B02181192B769A79005C9C0E /* LaunchScreen.storyboard */,
+			);
+			path = setup2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,10 +193,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0FCBEE62B7FE1F10063B3F3 /* SteamLogoWhite.png in Resources */,
 				B021811B2B769A79005C9C0E /* LaunchScreen.storyboard in Resources */,
-				B02181182B769A79005C9C0E /* Assets.xcassets in Resources */,
-				B0FCBEE42B7FDF5A0063B3F3 /* loginIcon.png in Resources */,
+				B0E5B1692B9B710F0006DB67 /* Colors.xcassets in Resources */,
+				B02181182B769A79005C9C0E /* Icons.xcassets in Resources */,
 				B02181162B769A78005C9C0E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -190,20 +207,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B02181132B769A78005C9C0E /* ViewController.swift in Sources */,
-				B0F8AA492B924818004B48D6 /* NoteDetailVC.swift in Sources */,
-				B0F8AA462B923C65004B48D6 /* NoteCell.swift in Sources */,
-				B0F8AA442B923378004B48D6 /* UserDefaults+Codable.swift in Sources */,
-				B0F6DFF62B89109200C0D4A3 /* TableTestVC.swift in Sources */,
-				B02181232B76B056005C9C0E /* Test.swift in Sources */,
-				B0F8AA422B923359004B48D6 /* UserDefaults.swift in Sources */,
-				B0F6DFF82B8913DD00C0D4A3 /* TextCell.swift in Sources */,
-				B0F8AA3E2B92289E004B48D6 /* NotesListVC.swift in Sources */,
-				B0F8AA4B2B925935004B48D6 /* BtCell.swift in Sources */,
-				B0F8AA402B922CCC004B48D6 /* Note.swift in Sources */,
+				B0E5B1632B9B6E5F0006DB67 /* HeroesListVC.swift in Sources */,
+				B0E5B16B2B9B7B180006DB67 /* UserDefaults+Codable.swift in Sources */,
 				B021810F2B769A78005C9C0E /* AppDelegate.swift in Sources */,
-				B0FCBEE22B7FDDF80063B3F3 /* SteamLoginVC.swift in Sources */,
 				B02181112B769A78005C9C0E /* SceneDelegate.swift in Sources */,
+				B0E5B1662B9B6F210006DB67 /* VC.swift in Sources */,
 				B0F6DFFA2B8924EC00C0D4A3 /* NotesList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,7 +366,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TLHAP4RNQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IOS/Info.plist;
+				INFOPLIST_FILE = IOS/Setup2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -386,7 +394,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TLHAP4RNQQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = IOS/Info.plist;
+				INFOPLIST_FILE = IOS/Setup2/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
