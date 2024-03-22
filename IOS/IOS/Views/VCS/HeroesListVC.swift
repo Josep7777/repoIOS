@@ -8,47 +8,70 @@
 import Foundation
 import UIKit
 
-struct Pokemon: Codable {
-    let name: String
-    let sprites: PokemonSprites
-}
-
-struct PokemonSprites: Codable{
-    let back: String
-    let front: String
-    
-    enum CodingKeys: String,CodingKey{
-        case back = "back_default"
-        case front = "front_default"
-    }
-}
 
 class HeroesListVC: VC{
     
+    @IBOutlet weak var table: UITableView!
+    var callInProgress = false
+    var heroes: [Hero] = []
+    var totalOfHeroes: Int?
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if let url = URL(string:  "https://pokeapi.co/api/v2/pokemon/charizard"){
-            
-            let request = URLRequest(url: url)
-            
-            let task = URLSession.shared.dataTask(with: request) { data, response, error in
-                
-                if let data = data, let jsonString = String(data: data, encoding: .utf8){
-                    
-                    if let pokemon = try? JSONDecoder().decode(Pokemon.self, from: data){
-                        DispatchQueue.main.async{
-                            print(jsonString)
-                        }
-                    }
+        table.dataSource = self
+        
+        getMoreHeroes()
+    }
+    
+    func getMoreHeroes(){
 
+        if(self.callInProgress){
+            return
+        }
+
+         var currentLimit = 20
+            if let totalOfHeroes = totalOfHeroes {
+                let pendentHeroes = totalOfHeroes - heroes.count
+                
+                if(pendentHeroes <= 0){
+                    return
+                }
+                
+                if(pendentHeroes < currentLimit){
+                    currentLimit = pendentHeroes
                 }
             }
-            task.resume()
+        
+        RepoManager.Marvel.getHeroes(offset: self.heroes.count, limit: 20){
+            heroes,total in
+            self.heroes.insert(contentsOf: heroes, at: self.heroes.count)
+            self.table.reloadData()
+            
         }
-        
-        
-    //"https://digi-api.com/api/v1/digimon/289"
-
     }
 }
+extension HeroesListVC: UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return heroes.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let identifier = indexPath.row % 2 == 0 ? "HeroCellLeft" : "HeroCellRight"
+        guard let heroCell = tableView.dequeueReusableCell(withIdentifier: identifier, for: indexPath) as? HeroCell else {
+            return Cell()
+        }
+        heroCell.setupWith(hero: heroes[indexPath.row])
+        
+        if(heroes.count - indexPath.row <= 5){
+            getMoreHeroes()
+        }
+        
+        return heroCell
+    }
+    
+    
+}
+    //"https://digi-api.com/api/v1/digimon/289"
+
+   
